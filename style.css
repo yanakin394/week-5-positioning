@@ -2,17 +2,14 @@
     box-sizing: border-box;
 }
 
+.root {
+    background-color: rgb(196, 192, 192);
+}
+
 .header {
-    background-color: rgb(175, 174, 174);
     height: 50px;
     text-align: center;
     padding: 10px;
-}
-
-.root {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
 }
 
 .main {
@@ -69,7 +66,6 @@
 }
 
 .footer {
-    background-color: rgb(175, 174, 174);
     height: 80px;
     display: flex;
     flex-direction: row;
